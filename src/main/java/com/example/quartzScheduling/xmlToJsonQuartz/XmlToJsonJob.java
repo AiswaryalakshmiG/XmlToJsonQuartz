@@ -27,7 +27,8 @@ public class XmlToJsonJob implements Job {
 		 }catch(IOException e) {
 			 e.printStackTrace();
 		 }
-			System.out.println("Converted XML to JSON successfully at: " + new Date());
+			System.out.println("Converted XML to JSON successfully" + new Date());
 	    }
 	    }
+
 
